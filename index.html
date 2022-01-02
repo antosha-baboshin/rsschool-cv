@@ -14,16 +14,16 @@
 <body>
     <header class="header">
         <div class="container">
-        <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-            </ul>
-          </nav>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main class="main main-container">
@@ -32,27 +32,23 @@
                 <p><img src="./assets/img/PhotoCV.jpg" alt="Photo" width="285" height="300"></p>
             </div>
             <div class="section" id="profile">
-                <h1 class="section-title">Antosha Baboshin</h1>
+                <h1 class="section-title name">Antosha Baboshin</h1>
             </div>
             <div class="section">
-                <h2 class="section-title">Junior frontend developer</h2>
+                <h2 class="section-title section-profession">Junior frontend developer</h2>
             </div>
             <div class="section" id="contacts">
                 <h2 class="section-title">Contact information:</h2>
-                <p class="content">Phone: +375 29 139 08 94<br>E-mail: antosha.js@gmail.com<br>Telegram: @ababoshin</p>  
+                    <div class="contacts-container">Phone: +375 29 139 08 94<br>E-mail: antosha.js@gmail.com<br>Telegram: @ababoshin<br><a href="https://www.linkedin.com/in/antosha-baboshin-23b4211b9/" class="contacts-link">LinledIn</a> | <a href="https://github.com/antosha-baboshin" class="contacts-link">GitHub</a> | <a href="https://www.facebook.com/profile.php?id=100052045039624" class="contacts-link">Facebook</a></div> 
             </div>
-            <section class="section" id="education">
+            <div class="section" id="education">
                 <h2 class="section-title">Education:</h2>
-                <ul class="content">
-                    <li>The Academy of Public Administration under the aegis of the President of the Republic of Belarus (2012 - 2016)
-                    <ul>
-                        <li>Speciality: State administration and law</li>
-                    </ul>
-                </ul>  
-            </section>
-            <section class="section" id="skills">
+                <span class="content">2012 - 2016: The Academy of Public Administration under the aegis of the President of the Republic of Belarus<br>
+                  <i>Speciality: State administration and law</i></span>
+            </div>
+            <div class="section" id="skills">
                 <h2 class="section-title">Skills / Proficiency:</h2>
-                <ul class="content">
+                <ul class="skills-content">
                     <li>HTML, CSS</li>
                     <li>JavaScript Basics</li>
                     <li>Git / GitHub</li>
@@ -60,21 +56,21 @@
                     <li>Google Analytics, Yandex.Metrika</li> 
                     <li>Google Ads, Yandex.Direct, Ads Manager</li>
                 </ul>
-            </section>
-            <section class="section" id="summary">
+            </div>
+            <div class="section" id="summary">
                 <h2 class="section-title">About myself:</h2>
                 <p class="content">For the last 3 years I have been working at MTS Belarus (network provider). In 2018, I started working as a consultant in the MTS online store. A year later, I moved to the position of customer service specialist. But the title of the position doesn't reflect the range of my responsibilities.  
                 Currently, I am promoting the online store:</p>
                     <ul class="content">
-                        <li>contextual advertising;</li> 
-                        <li>SMM;</li> 
-                        <li>banner advertising;</li> 
-                        <li>offline advertising.</li>
+                        <li class="skills-content">- contextual advertising;</li> 
+                        <li class="skills-content">- SMM;</li> 
+                        <li class="skills-content">- banner advertising;</li> 
+                        <li class="skills-content">- offline advertising.</li>
                     </ul>
                 <p class="content">Also, my responsibilities include keeping and analyzing statistics of the online store, interaction with advertising agencies.  
                 In 2021, I entered RS-School courses in order to continue to develop and master the profession of a front-end developer.</p>
                 <h5 class="section-title">Positive features:</h5>
-                <ul class="content">
+                <ul class="skills-content">
                     <li>self-development;</li>
                     <li>responsibility;</li>
                     <li>stress resistance;</li>
@@ -82,24 +78,25 @@
                     <li>sociability.</li>
                 </ul>
                 <h5 class="section-title">Negative features:</h5>
-                <ul class="content">
+                <ul class="skills-content">
                     <li>mistrust and love of proof;</li>
                     <li>straightforwardness.</li>
                 </ul>
-                </section>
+                </div>
             <section class="section" id="code">
                 <h2 class="section-title">Code example:</h2>
-                <pre><code>
-                int main(void) {
-                int N, i=10, x;
-                scanf("%d", &N);
-                do {
-                    x=N%i;
-                    printf("%d", x);
-                    N=(N-x)/i;
-                } while(N!=0);
-            return 0;
-            }</code></pre>
+                <pre><code class="code">
+        int main(void) {
+            int N, i=10, x;
+            scanf("%d", &N);
+            do {
+                x=N%i;
+                printf("%d", x);
+                N=(N-x)/i;
+            } while(N!=0);
+        return 0;
+        }
+        </code></pre>
             </section>
             <section class="section" id="languages">
                 <h2 class="section-title">Languages:</h2>
@@ -116,8 +113,8 @@
             <div>
                 © 2022
             </div>
-            <a href="https://github.com/antosha-baboshin" class="nav-link">antosha-baboshin</a>
-            <a href="https://rs.school/js/" class="nav-link">RS School</a>
+            <a href="https://github.com/antosha-baboshin" class="footer-link">antosha-baboshin</a>
+            <a href="https://rs.school/js/" class="rss-link"></a>
         </div>
     </footer>
 </body>
