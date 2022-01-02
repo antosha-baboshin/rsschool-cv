@@ -1,5 +1,6 @@
 # Antosha Baboshin
 ### Junior Frontend Developer
+![Photo](C:\Users\bodir\Desktop\JS)
 #### Contact information:
 **Phone:** +375 29 139 08 94  
 **E-mail:** antosha.js@gmail.com  
@@ -45,7 +46,8 @@ int main() {
     N=(N-x)/i;
   } while(N!=0);
   return 0;
-}```  
+}
+```
 #### Languages:
 * Russian - Native;
 * Belarusian - Native;
