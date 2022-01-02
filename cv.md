@@ -24,7 +24,8 @@ Currently, I am promoting the online store:
 * SMM; 
 * banner advertising; 
 * offline advertising.  
-/Also, my responsibilities include keeping and analyzing statistics of the online store, interaction with advertising agencies.  
+
+Also, my responsibilities include keeping and analyzing statistics of the online store, interaction with advertising agencies.  
 In 2021, I entered RS-School courses in order to continue to develop and master the profession of a front-end developer.  
 ###### Positive features:
 * self-development;
@@ -37,7 +38,8 @@ In 2021, I entered RS-School courses in order to continue to develop and master 
 * straightforwardness.  
 #### Code example:
 ```#include <stdio.h>
-int main() {
+// program for a given natural number N prints its numerals in reverse order
+int main(void) {
   int N, i=10, x;
   scanf("%d", &N);
   do {
