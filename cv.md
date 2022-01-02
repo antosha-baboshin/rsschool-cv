@@ -1,6 +1,6 @@
 # Antosha Baboshin
 ### Junior Frontend Developer
-![Photo](C:\Users\bodir\Desktop\JS)
+![Photo](https://github.com/antosha-baboshin/rsschool-cv/blob/7996aa572c850fce6494119c531a7898999706cc/PhotoCV.jpg)
 #### Contact information:
 **Phone:** +375 29 139 08 94  
 **E-mail:** antosha.js@gmail.com  
