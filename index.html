@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main main-container">
+        <div class="container">
+            <div class="section avatar">
+                <p><img src="./assets/img/PhotoCV.jpg" alt="Photo" width="285" height="300"></p>
+            </div>
+            <div class="section" id="profile">
+                <h1 class="section-title name">Antosha Baboshin</h1>
+            </div>
+            <div class="section">
+                <h2 class="section-title section-profession">Junior frontend developer</h2>
+            </div>
+            <div class="section" id="contacts">
+                <h2 class="section-title">Contact information:</h2>
+                    <div class="contacts-container">
+                        <ul>
+                            <li class="contacts-content">Phone: +375 29 139 08 94</li>
+                            <li class="contacts-content">E-mail: antosha.js@gmail.com</li>
+                            <li class="contacts-content">Telegram: @ababoshin</li>
+                            <li class="contacts-content"><a href="https://www.linkedin.com/in/antosha-baboshin-23b4211b9/" class="contacts-link">LinledIn</a> | <a href="https://github.com/antosha-baboshin" class="contacts-link">GitHub</a> | <a href="https://www.facebook.com/profile.php?id=100052045039624" class="contacts-link">Facebook</a></li>
+                        </ul>
+                    </div> 
+            </div>
+            <div class="section" id="education">
+                <h2 class="section-title">Education:</h2>
+                <span class="content">2012 - 2016: The Academy of Public Administration under the aegis of the President of the Republic of Belarus<br>
+                  <i>Speciality: State administration and law</i></span>
+            </div>
+            <div class="section" id="skills">
+                <h2 class="section-title">Skills / Proficiency:</h2>
+                <ul class="skills-content">
+                    <li>HTML, CSS</li>
+                    <li>JavaScript Basics</li>
+                    <li>Git / GitHub</li>
+                    <li>VS Code, Adobe Photoshop</li>
+                    <li>Google Analytics, Yandex.Metrika</li> 
+                    <li>Google Ads, Yandex.Direct, Ads Manager</li>
+                </ul>
+            </div>
+            <div class="section" id="summary">
+                <h2 class="section-title">About myself:</h2>
+                <p class="content">For the last 3 years I have been working at MTS Belarus (network provider). In 2018, I started working as a consultant in the MTS online store. A year later, I moved to the position of customer service specialist. But the title of the position doesn't reflect the range of my responsibilities.  
+                Currently, I am promoting the online store:</p>
+                    <ul class="content">
+                        <li class="skills-content">- contextual advertising;</li> 
+                        <li class="skills-content">- SMM;</li> 
+                        <li class="skills-content">- banner advertising;</li> 
+                        <li class="skills-content">- offline advertising.</li>
+                    </ul>
+                <p class="content">Also, my responsibilities include keeping and analyzing statistics of the online store, interaction with advertising agencies.  
+                In 2021, I entered RS-School courses in order to continue to develop and master the profession of a front-end developer.</p>
+                <h4 class="section-title">Positive features:</h4>
+                <ul class="skills-content">
+                    <li>self-development;</li>
+                    <li>responsibility;</li>
+                    <li>stress resistance;</li>
+                    <li>learnability;</li>
+                    <li>sociability.</li>
+                </ul>
+                <h4 class="section-title">Negative features:</h4>
+                <ul class="skills-content">
+                    <li>mistrust and love of proof;</li>
+                    <li>straightforwardness.</li>
+                </ul>
+                </div>
+            <section class="section" id="code">
+                <h2 class="section-title">Code example:</h2>
+                <pre><code class="code">
+    int main(void) {
+        int N, i=10, x;
+        scanf("%d", &N);
+        do {
+            x=N%i;
+            printf("%d", x);
+            N=(N-x)/i;
+        } while(N!=0);
+    return 0;
+    }
+        </code></pre>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages:</h2>
+                <ul class="content">
+                    <li>Russian - Native;</li>
+                    <li>Belarusian - Native;</li>
+                    <li>English - B1 / Intermediate.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container container-footer">
+            <div>
+                © 2022
+            </div>
+            <a href="https://github.com/antosha-baboshin" class="footer-link">antosha-baboshin</a>
+            <a href="https://rs.school/js/" class="rss-link"></a>
+        </div>
+    </footer>
+</body>
+</html>
