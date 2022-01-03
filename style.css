@@ -15,6 +15,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     color: #5F9EA0;
+    background-image: url(./assets/img/background.jpg);
 }
 .header {
     background-color: #5F9EA0;
@@ -39,7 +40,7 @@ body {
     background: gold;
   }
 .main {
-    border: 40px solid #FFF;
+    border: 10px solid #FFF;
 }
 .main-container {
     display: flex;
