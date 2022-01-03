@@ -22,10 +22,9 @@ body {
 .nav-list {
     display: flex;
     justify-content: space-around;
-    align-self: center;
     list-style: none;
     flex-wrap: wrap;
-    border: solid 2px #DC143C;
+    padding-left: 0;
 }
 .nav-link {
     padding: 0 20px;
