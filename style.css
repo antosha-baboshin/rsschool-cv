@@ -15,16 +15,17 @@ body {
     font-weight: 500;
     line-height: 1.5;
     color: #5F9EA0;
+    background-image: url(./assets/img/background.jpg);
 }
 .header {
     background-color: #5F9EA0;
 }
 .nav-list {
     display: flex;
-    justify-content: center;
-    align-self: center;
+    justify-content: space-around;
     list-style: none;
     flex-wrap: wrap;
+    padding-left: 0;
 }
 .nav-link {
     padding: 0 20px;
@@ -39,7 +40,7 @@ body {
     background: gold;
   }
 .main {
-    border: 40px solid #FFF;
+    border: 10px solid #FFF;
 }
 .main-container {
     display: flex;
@@ -117,6 +118,9 @@ html {
   }
   .contacts-container {
       text-align: center;
+  }
+  .contacts-content {
+    list-style: none;
   }
   .code {
       display: flex;
