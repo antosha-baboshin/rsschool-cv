@@ -1,1 +1,1 @@
-http://antosha-baboshin-cv-cross-check.netlify.app
+https://antosha-baboshin.github.io/rsschool-cv/
