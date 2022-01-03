@@ -119,6 +119,9 @@ html {
   .contacts-container {
       text-align: center;
   }
+  .contacts-content {
+    list-style: none;
+  }
   .code {
       display: flex;
       justify-content: center;
