@@ -122,6 +122,9 @@ html {
   .contacts-content {
     list-style: none;
   }
+  .contacts-list {
+    padding-left: 0;
+  }
   .code {
       display: flex;
       justify-content: center;
